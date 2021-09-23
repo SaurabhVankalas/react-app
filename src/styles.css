@@ -1,0 +1,181 @@
+body {
+  background-color: lightgray;
+}
+.main-nav {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: lighter;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.main-header {
+  background-color: white;
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 30px;
+  padding-top: 0px;
+}
+.nav li {
+  display: inline;
+}
+.main-nav li {
+  padding: 0 5%;
+  background-color: green;
+}
+.main-header h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.nav a:hover {
+  background-color: bisque;
+  text-decoration: none;
+}
+.nav a {
+  text-decoration: none;
+  color: lightblue;
+  font-size: 2rem;
+}
+.section-header {
+  font-family: "Metal Mania";
+  font-weight: normal;
+  color: #333;
+  text-align: center;
+  font-size: 2.5em;
+}
+.shop-item-image {
+  height: 250px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 200px;
+  float: left;
+}
+.shop-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.shop-item {
+  margin: 30px;
+  border: #333;
+  border-style: dashed;
+  width: 500px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+
+.shop-item-title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 15px;
+}
+.shop-item-details {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  padding-top: 20px;
+}
+
+.shop-item-price {
+  flex-grow: 1;
+  color: black;
+  background-color: lightgreen;
+  font-size: 2rem;
+}
+.shop-item-button {
+  margin-left: 60px;
+  padding-right: 10px;
+}
+/* Dropdown Button */
+.dropbtn {
+  background-color: #4caf50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  display: inline-block;
+}
+.dropdown-content img {
+  display: block;
+  float: left;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0px 80px 160px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  width: 400px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  float: left;
+  width: 250px;
+  height: 50px;
+  padding-top: 10px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.rm_btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 0px;
+  float: right;
+  height: 50px;
+  width: 60px;
+}
+
+/* Darker background on mouse-over */
+.rm_btn:hover {
+  background-color: RoyalBlue;
+}
+.button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.msd {
+  color: green;
+}
